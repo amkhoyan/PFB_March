@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops", "Loops\Loops.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excersises1", "Excersises1\Excersises1.csproj", "{40ABC4A8-38EF-4CFA-A2C4-D3B8E067FD03}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneDimensionalArray", "OneDimensionalArray\OneDimensionalArray.csproj", "{AB7D07A4-4C2A-462B-B4C5-826A9E0D6423}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{40ABC4A8-38EF-4CFA-A2C4-D3B8E067FD03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40ABC4A8-38EF-4CFA-A2C4-D3B8E067FD03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40ABC4A8-38EF-4CFA-A2C4-D3B8E067FD03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB7D07A4-4C2A-462B-B4C5-826A9E0D6423}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB7D07A4-4C2A-462B-B4C5-826A9E0D6423}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB7D07A4-4C2A-462B-B4C5-826A9E0D6423}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB7D07A4-4C2A-462B-B4C5-826A9E0D6423}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

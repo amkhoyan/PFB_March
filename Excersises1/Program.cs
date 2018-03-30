@@ -45,6 +45,11 @@ namespace Excersises1
             //  *****        *****
             //  ******      ******
 
+            //  ****
+            //  *  *
+            //  *  *
+            //  ****
+
             // N>1, 3^K>N
 
 
@@ -78,20 +83,40 @@ namespace Excersises1
 
             //Console.ReadLine();
 
-            int avand = 30000;
-            int n;
-            for (int i = 1; i > 0; i++) 
+            //int avand = 30000;
+            //int n;
+            //for (int i = 1; i > 0; i++) 
+            //{
+            //    n = avand * 10 / 100;
+            //    avand = avand + n;
+            //    if (avand >= 100000)
+            //    {
+            //        Console.WriteLine(i);
+            //        break;
+            //    }
+
+            //}
+            //Console.Read();
+
+
+            double b,p;
+
+            Console.WriteLine("a=");
+            p = int.Parse(Console.ReadLine());
+            b = (1 + p / 100);
+            for (int i = 0; ; i++)
             {
-                n = avand * 50 / 100;
-                avand = avand + n;
-                if (avand >= 100000)
+                double sam = 30000 * Math.Pow(b, i);
+                if(sam>100000)
                 {
                     Console.WriteLine(i);
                     break;
                 }
+              
+            
 
             }
-            Console.Read();
+            Console.ReadLine();
         }
     }
 }
