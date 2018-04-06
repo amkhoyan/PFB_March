@@ -108,7 +108,6 @@ namespace MultiDimensionalArray
                     if (arr[y, r] % k == 0) {
                         count++;
                     }
-
                 }
             }
             Console.Write($"{count}");
